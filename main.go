@@ -8,6 +8,6 @@ func main() {
 
 func GetGlobalSynced() compute.InsertInstanceTemplateRequest {
 	req := compute.InsertInstanceTemplateRequest{}
-	req = req
+	// req = req // warning: self-assignment of req to req (assign)
 	return req
 }
